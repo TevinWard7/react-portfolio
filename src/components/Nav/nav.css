@@ -15,12 +15,12 @@
 	margin: 10px;
 }
 
-#current-link {
-	color: black;	
-}
-
 .nav-link:hover {
 	color: black;
 	background-size: contain;
 	background-repeat: no-repeat;
+}
+
+.left-side {
+	background-color: #ecdcc9;
 }

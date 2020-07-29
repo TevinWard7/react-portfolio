@@ -8,3 +8,10 @@ footer {
 	bottom: 0;
 	width: 100%;
 }
+
+li {
+	padding: 10px;
+	display:inline;
+    display:inline-block;
+	zoom:1;
+}

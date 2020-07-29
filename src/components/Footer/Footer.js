@@ -1,22 +1,18 @@
 import React from "react";
-import "./footer.css"
+import "./footer.css";
+import gitImg from "./img/github.png";
+import linkdIMg from "./img/linkedin.png"
 
 const Footer = () => {
     return(
-        <footer>
+    <footer className="row">
 
-        <div>
-
-            {/* <img id="play" src="images/mute.png" alt="sound" height="25" width="25">
-            <img id="pause" src="images/sound.png" alt="sound" height="25" width="25">
-            <audio id="music" src="music/vivaldi.mp3" type="audio/mp3"></audio> */}
-
-        </div>
-        <br/>
-        <div>
-
-            <p>© 2020, Tevin Ward</p>
-
+        <div className="col-12">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/tevin-ward-bb1494150/" ><img src={linkdIMg} alt="github-link" height="30" width="30" /></a></li>
+                <li><a href="https://github.com/TevinWard7"><img src={gitImg} alt="github-link" height="30" width="30" /></a></li>
+            </ul>
+            <div>© 2020, Tevin Ward</div>
         </div>
 
     </footer>
