@@ -1,9 +1,3 @@
-.navbar-brand {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-}
-
 .linkedpages-bck {
 	font-family: apercu;
 	color: white;
@@ -12,14 +6,13 @@
 }
 
 #navbar {
-	margin: 30px;
-	height: 70px;
 	position: sticky;
 	top: 0;
 }
 
 .nav-link {
 	color: black;
+	margin: 10px;
 }
 
 #current-link {
