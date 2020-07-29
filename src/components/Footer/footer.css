@@ -1,7 +1,7 @@
 footer {
 	font-family: apercu;
 	color: black;
-	font-size: small;
+	font-size: medium;
 	text-align: center;
 	padding: 20px;
 	position: absolute;
@@ -9,9 +9,26 @@ footer {
 	width: 100%;
 }
 
-li {
-	padding: 10px;
-	display:inline;
-    display:inline-block;
-	zoom:1;
+#menu-outer {
+	height: 84px;
+	/* background: url(./img/github.png) repeat-x; */
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+
+.bar {
+	background-color: #ecdcc9;
 }
