@@ -19,10 +19,15 @@ footer {
 	margin: 0 auto;
 }
 
+li {
+	padding: 10px;
+}
+
 ul#horizontal-list {
 	min-width: 696px;
 	list-style: none;
 	padding-top: 20px;
+	padding-right: 50px;
 	}
 	ul#horizontal-list li {
 		display: inline;
