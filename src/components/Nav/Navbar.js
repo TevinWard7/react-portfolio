@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./nav.css";
 import logo from "./img/tevinlogo.png";
+import anime from 'animejs/lib/anime.es.js';
 
 const Navbar = () => {
+
+    useEffect(() => {
+        anime({
+            targets: '.logo',
+            rotate: 360, 
+            loop: true,
+            easing: 'linear',
+            duration: 3000
+          });
+    });
 
 return(
     <nav id="navbar" class="navbar navbar-expand-md">
@@ -10,7 +21,7 @@ return(
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <img src={logo} alt="logo" width="75" height="75" />
+                <img class="logo" src={logo} alt="logo" width="75" height="75" />
             </li>
         </ul>
     </div>
