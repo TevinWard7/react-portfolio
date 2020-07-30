@@ -14,7 +14,7 @@ const Portfolio = () => {
             <div className="col-12">
                 <div className="container" id="app-2">
                     <img src={burgerImg} alt="Portfolio Site" width="300" height="300" className="folio-image"
-                        id="folio-image-2"></img>
+                        id="folio-image-2" ></img>
                   
                     <div className="text" id="text-2"><a href="https://github.com/TevinWard7/Eat-Da-Burger.git"
                             className="inside-text">GitHub</a><span class="inside-text"> | </span><a
@@ -48,11 +48,11 @@ const Portfolio = () => {
 
         <div className="row">
             <div className="col-12">
-                <div className="container" id="app-4">
+                <div className="container" id="app-4" >
                     <img src={fancyTextImg} alt="Portfolio Site" width="300" height="300" className="folio-image"
-                        id="folio-image-4"></img>
+                        id="folio-image-4" ></img>
                     
-                    <div className="text" id="text-4"><a href="https://github.com/TevinWard7/QuoteConvertor.git"
+                    <div className="text" id="text-4" ><a href="https://github.com/TevinWard7/QuoteConvertor.git"
                             className="inside-text">GitHub</a><span class="inside-text"> | </span><a
                             href="https://tevinward7.github.io/QuoteConvertor/" className="inside-text">Live
                             Site</a>

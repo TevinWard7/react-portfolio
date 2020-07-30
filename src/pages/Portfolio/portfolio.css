@@ -43,3 +43,9 @@
 	margin: auto;
 	padding: auto;
 }
+
+/* Hover states */
+
+#app-2:hover #text-2, #app-3:hover #text-3, #app-4:hover #text-4 {
+	opacity: 1;
+}
