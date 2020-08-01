@@ -19,11 +19,13 @@ return(
     <nav id="navbar" class="navbar navbar-expand-md">
 
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a href="/"><img class="logo" src={logo} alt="logo" width="75" height="75" /></a>
             </li>
         </ul>
+        
     </div>
 
     <div class="mx-auto order-0">
@@ -34,6 +36,7 @@ return(
     </div>
 
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+
         <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link active" href="/about">About</a>
@@ -45,6 +48,7 @@ return(
           <a class="nav-link" href="/contact">Contact</a>
         </li>
         </ul>
+
     </div>
 
 </nav>

@@ -3,6 +3,7 @@ import "./portfolio.css";
 import burgerImg from "./img/burger.png";
 import weatherImg from "./img/weather.png";
 import fancyTextImg from "./img/fancy-text.png";
+import employeeImg from "./img/employee.png";
 
 const Portfolio = () => {
 
@@ -10,7 +11,7 @@ const Portfolio = () => {
         <>
     <div class="linksContainer">
 
-        <div className="row">
+    <div className="row">
             <div className="col-12">
                 <div className="container" id="app-2">
                     <img src={burgerImg} alt="Portfolio Site" width="300" height="300" className="folio-image"
@@ -19,6 +20,24 @@ const Portfolio = () => {
                     <div className="text" id="text-2"><a href="https://github.com/TevinWard7/Eat-Da-Burger.git"
                             className="inside-text">GitHub</a><span class="inside-text"> | </span><a
                             href="https://eat-da-burger-app-7.herokuapp.com/" className="inside-text">Live
+                            Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br/>
+        <br/>
+
+    <div className="row">
+            <div className="col-12">
+                <div className="container" id="app-1">
+                    <img src={employeeImg} alt="Portfolio Site" width="300" height="300" className="folio-image"
+                        id="folio-image-1" ></img>
+                  
+                    <div className="text" id="text-1"><a href="https://github.com/TevinWard7/Employee-Directory.git"
+                            className="inside-text">GitHub</a><span class="inside-text"> | </span><a
+                            href="https://competent-kirch-beaaac.netlify.app/" className="inside-text">Live
                             Site</a>
                     </div>
                 </div>

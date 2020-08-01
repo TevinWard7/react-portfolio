@@ -27,7 +27,7 @@ const Footer = () => {
                
             </div>
             <div className="col-4 bar">
-            © Tevin Ward
+            Tevin Ward ©
             </div>
 
         </div>

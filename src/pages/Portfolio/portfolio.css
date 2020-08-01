@@ -46,11 +46,11 @@
 
 /* Hover states */
 
-#app-2:hover #text-2, #app-3:hover #text-3, #app-4:hover #text-4 {
+#app-1:hover #text-1, #app-2:hover #text-2, #app-3:hover #text-3, #app-4:hover #text-4 {
 	opacity: 1;
 }
 
-#app-2:hover #folio-image-2, #app-3:hover #folio-image-3, #app-4:hover #folio-image-4 {
+#app-1:hover #folio-image-1, #app-2:hover #folio-image-2, #app-3:hover #folio-image-3, #app-4:hover #folio-image-4 {
 	opacity: 50%;
 	image-rendering: pixelated;
 	image-rendering: crisp-edges;
