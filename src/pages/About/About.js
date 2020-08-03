@@ -1,5 +1,6 @@
 import React from "react";
 import Resume from "./content/tevin_ward_resume.pdf";
+import "./style.css";
 
 const About = () => {
     return(
