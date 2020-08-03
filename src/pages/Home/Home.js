@@ -11,7 +11,7 @@ const Home = () => {
     };
 
     useEffect(() => {
-        setInterval(displayNewHello, 3000);
+        setInterval(displayNewHello, 2000);
       },[]);
 
     const displayNewHello = () => {
