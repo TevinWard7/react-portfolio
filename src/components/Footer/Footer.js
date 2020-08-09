@@ -12,8 +12,8 @@ const Footer = () => {
             <div class="table">
                 <ul id="horizontal-list">
                     <li><a href="https://github.com/TevinWard7"><img src={gitImg} alt="github-link" height="30" width="30" /></a></li>
+                    |
                     <li><a href="https://www.linkedin.com/in/tevin-ward-bb1494150/" ><img src={linkdIMg} alt="github-link" height="30" width="30" /></a></li>
-                    <li><a href="https://github.com/TevinWard7"><img src={gitImg} alt="github-link" height="30" width="30" /></a></li>
                 </ul>
             </div>
         </div>

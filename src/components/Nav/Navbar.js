@@ -18,7 +18,7 @@ const Navbar = () => {
 return(
     <nav id="navbar" class="navbar navbar-expand-md">
 
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+    <div class="navbar w-100 order-1 ">
 
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -35,7 +35,7 @@ return(
         </button>
     </div>
 
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+    <div class="navbar w-100 order-3">
 
         <ul class="navbar-nav ml-auto">
         <li class="nav-item">
