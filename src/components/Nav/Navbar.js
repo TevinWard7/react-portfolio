@@ -28,12 +28,11 @@ return(
         
     </div>
 
-    <div class="mx-auto order-0">
-        {/* <a class="navbar-brand mx-auto"></a> */}
+    {/* <div class="mx-auto order-0">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
             <span class="navbar-toggler-icon"></span>
         </button>
-    </div>
+    </div> */}
 
     <div class="navbar w-100 order-3">
 

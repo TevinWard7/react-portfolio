@@ -1,4 +1,9 @@
+.home {
+    background-image: url("./codegif4.gif");
+    background-repeat: no-repeat;
+}
+
 #greeting-display{
     font-family: raisonne;
     font-size: 10vh;
-};
+}
