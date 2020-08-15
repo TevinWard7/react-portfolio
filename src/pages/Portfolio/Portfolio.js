@@ -13,9 +13,9 @@ const Portfolio = () => {
 
     <div className="row">
 
-        <div className="col-4"></div>
+        <div className="col-lg-4 col-md-0"></div>
 
-            <div className="col-4">
+            <div className="col-lg-4 col-md-8">
                 <div className="container" id="app-2">
                     <img src={burgerImg} alt="Portfolio Site" width="300" height="300" className="folio-image"
                         id="folio-image-2" ></img>
@@ -28,7 +28,7 @@ const Portfolio = () => {
                 </div>
             </div>
 
-            <div className="col-4" id="app-2-details">
+            <div className="col-lg-4 col-md-8" id="app-2-details">
                 <div >
                 <p>Like burgers? Make a list of some you want to eat and keep note of wich ones you've devoured</p>
                 </div>
@@ -40,8 +40,10 @@ const Portfolio = () => {
         <br/>
 
     <div className="row">
-            <div className="col-4"></div>
-            <div className="col-4">
+
+            <div className="col-lg-4 col-md-0"></div>
+
+            <div className="col-lg-4 col-md-8">
                 <div className="container" id="app-1">
                     <img src={employeeImg} alt="Portfolio Site" width="300" height="300" className="folio-image"
                         id="folio-image-1" ></img>
@@ -53,13 +55,16 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-4"></div>
+            
+            <div className="col-lg-4 col-md-8"></div>
+
         </div>
 
         <br/>
         <br/>
 
         <div className="row">
+
             <div className="col-12">
                 <div className="container" id="app-3">
                     <img src={weatherImg} alt="Portfolio Site" width="300" height="300" class="folio-image"
@@ -72,14 +77,16 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
+
         </div>
 
         <br/>
         <br/>
 
         <div className="row">
-            <div className="col-4"></div>
-            <div className="col-4">
+
+            <div className="col-lg-4 col-md-0"></div>
+            <div className="col-lg-4 col-md-8">
                 <div className="container" id="app-4" >
                     <img src={fancyTextImg} alt="Portfolio Site" width="300" height="300" className="folio-image"
                         id="folio-image-4" ></img>
@@ -91,11 +98,12 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-md-8">
                 <div id="app-4-details">
                 
                 </div>
             </div>
+
         </div>
 
         <br/>

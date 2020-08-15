@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./home.css"
+import "./home.css";
+import anime from 'animejs/lib/anime.es.js';
 
 const Home = () => {
 
@@ -8,10 +9,27 @@ const Home = () => {
 
     const myStyle = {
         color: helloClr,
+        zIndex: '-10'
     };
 
     useEffect(() => {
         setInterval(displayNewHello, 2000);
+
+        anime({
+            targets: '#greeting-display',
+            keyframes: [
+              {translateY: 0},
+              {scale: 1},
+              {scale: 15},
+              {translateX: 0},
+              {translateY: 0},
+            //   {scale: 10},
+            ],
+            duration: 4000,
+            easing: 'easeOutElastic(1, .8)',
+            loop: true
+          });
+
       },[]);
 
     const displayNewHello = () => {

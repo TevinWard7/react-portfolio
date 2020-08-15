@@ -13,10 +13,24 @@ const Navbar = () => {
             easing: 'linear',
             duration: 3000
           });
+
+          window.addEventListener("scroll", () => scrolling())
+
     });
 
+    const scrolling = () => {
+        anime({
+            targets: '.links',
+            opacity: 50, 
+            translateY: -600, 
+            easing: 'linear',
+            duration: 1000
+          });
+    };
+
+
 return(
-    <nav id="navbar" class="navbar navbar-expand-md">
+    <nav id="navbar" class="navbar navbar-expand-md" style={{zIndex: 10}}>
 
     <div class="navbar w-100 order-1 ">
 
@@ -28,14 +42,7 @@ return(
         
     </div>
 
-    {/* <div class="mx-auto order-0">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div> */}
-
-    <div class="navbar w-100 order-3">
-
+    <div class="navbar w-100 order-3 links">
         <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link active" href="/about">About</a>

@@ -1,6 +1,8 @@
 .home {
-    background-image: url("./codegif4.gif");
+    background-image: url("./codegif3.gif");
     background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
 }
 
 #greeting-display{
