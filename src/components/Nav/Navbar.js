@@ -18,15 +18,15 @@ const Navbar = () => {
 
     });
 
-    const scrolling = () => {
-        anime({
-            targets: '.links',
-            opacity: 50, 
-            translateY: -600, 
-            easing: 'linear',
-            duration: 1000
-          });
-    };
+    // const scrolling = () => {
+    //     anime({
+    //         targets: '.links',
+    //         opacity: 50, 
+    //         translateY: -600, 
+    //         easing: 'linear',
+    //         duration: 1000
+    //       });
+    // };
 
 
 return(
