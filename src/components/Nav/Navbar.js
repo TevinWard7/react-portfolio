@@ -14,7 +14,7 @@ const Navbar = () => {
             duration: 3000
           });
 
-          window.addEventListener("scroll", () => scrolling())
+        //   window.addEventListener("scroll", () => scrolling())
 
     });
 
