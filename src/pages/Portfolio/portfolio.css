@@ -44,14 +44,24 @@
 	padding: auto;
 }
 
-#app-2-details {
-	background-color: gainsboro;
+#app-1-details, #app-2-details, #app-3-details, #app-4-details {
+	border-width: thin;
+	border-style: solid;
+	border-color: gainsboro;
 	text-align: center;
+	opacity: 1;
+	margin: auto;
+    width: 50%;
+	padding: 10px;
 	opacity: 0;
 }
 
 /* Hover states */
 
 #app-1:hover #text-1, #app-2:hover #text-2, #app-3:hover #text-3, #app-4:hover #text-4 {
+	opacity: 1;
+}
+
+#app-1-container:hover #app-1-details, #app-2-container:hover #app-2-details, #app-3-container:hover #app-3-details, #app-4-container:hover #app-4-details  {
 	opacity: 1;
 }

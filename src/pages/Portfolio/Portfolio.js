@@ -11,7 +11,7 @@ const Portfolio = () => {
         <>
     <div class="linksContainer">
 
-    <div className="row">
+        <div className="row" id="app-2-container">
 
         <div className="col-lg-4 col-md-0"></div>
 
@@ -39,7 +39,7 @@ const Portfolio = () => {
         <br/>
         <br/>
 
-    <div className="row">
+        <div className="row" id="app-1-container">
 
             <div className="col-lg-4 col-md-0"></div>
 
@@ -56,16 +56,19 @@ const Portfolio = () => {
                 </div>
             </div>
             
-            <div className="col-lg-4 col-md-8"></div>
+            <div className="col-lg-4 col-md-8" id="app-1-details">
+                Keep a list of your employees and search them by name.
+            </div>
 
         </div>
 
         <br/>
         <br/>
 
-        <div className="row">
+        <div className="row" id="app-3-container">
 
-            <div className="col-12">
+            <div className="col-lg-4 col-md-0"></div>
+            <div className="col-lg-4 col-md-8">
                 <div className="container" id="app-3">
                     <img src={weatherImg} alt="Portfolio Site" width="300" height="300" class="folio-image"
                         id="folio-image-3"></img>
@@ -77,13 +80,18 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
+            <div className="col-lg-4 col-md-8">
+                <div id="app-3-details">
+                
+                </div>
+            </div>
 
         </div>
 
         <br/>
         <br/>
 
-        <div className="row">
+        <div className="row" id="app-4-container">
 
             <div className="col-lg-4 col-md-0"></div>
             <div className="col-lg-4 col-md-8">
