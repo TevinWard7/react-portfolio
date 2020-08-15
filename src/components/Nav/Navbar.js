@@ -14,25 +14,12 @@ const Navbar = () => {
             duration: 3000
           });
 
-        //   window.addEventListener("scroll", () => scrolling())
-
     });
-
-    // const scrolling = () => {
-    //     anime({
-    //         targets: '.links',
-    //         opacity: 50, 
-    //         translateY: -600, 
-    //         easing: 'linear',
-    //         duration: 1000
-    //       });
-    // };
-
 
 return(
     <nav id="navbar" class="navbar navbar-expand-md" style={{zIndex: 10}}>
 
-    <div class="navbar w-100 order-1 ">
+    <div class="navbar w-100 order-1" id="logo">
 
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">

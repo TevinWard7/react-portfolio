@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./portfolio.css";
 import burgerImg from "./img/burger.png";
 import weatherImg from "./img/weather.png";
 import fancyTextImg from "./img/fancy-text.png";
 import employeeImg from "./img/employee.png";
+import anime from 'animejs/lib/anime.es.js';
 
 const Portfolio = () => {
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            anime({
+                targets: '.links',
+                opacity: 0,
+                // translateY: -100,
+                easing: 'linear',
+                duration: 500
+              });
+        })
+
+    },[])
 
     return(
         <>
@@ -108,7 +122,7 @@ const Portfolio = () => {
             </div>
             <div className="col-lg-4 col-md-8">
                 <div id="app-4-details">
-                
+                Write or generate a quote to be generated in a quirky dialect of your choice
                 </div>
             </div>
 

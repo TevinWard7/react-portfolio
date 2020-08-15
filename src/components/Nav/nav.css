@@ -25,6 +25,11 @@
 	background-color: #ecdcc9;
 }
 
+/* .links {
+	position: absolute;
+	top: 0;
+} */
+
 @media screen and (max-width: 760px) {
 
 	.links {
