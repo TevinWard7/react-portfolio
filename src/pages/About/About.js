@@ -13,7 +13,7 @@ const About = () => {
 
             <br/>
 
-            <a id="resume-link" href={Resume}><h4>Resume</h4></a>
+            <a id="resume-link" href={Resume}><h5>Resume</h5></a>
 
             <br/>
 
