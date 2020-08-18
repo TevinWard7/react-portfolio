@@ -17,6 +17,11 @@ body {
 	position: relative;
 	padding-bottom: 58px;
 	min-height: 100vh;
+	
+	background-image: url(./fish.gif);
+    background-color: white;
+    background-blend-mode: hard-light;
+    background-size: cover;
 }
 
 .myContainer {

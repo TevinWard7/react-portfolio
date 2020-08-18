@@ -13,21 +13,16 @@ const Home = () => {
     };
 
     useEffect(() => {
+
         setInterval(displayNewHello, 2000);
 
         anime({
             targets: '#greeting-display',
-            keyframes: [
-              {translateY: 0},
-              {scale: 1},
-              {scale: 15},
-              {translateX: 0},
-              {translateY: 0},
-            //   {scale: 10},
-            ],
-            duration: 4000,
-            easing: 'easeOutElastic(1, .8)',
-            loop: true
+              rotate: {
+                value: 360,
+                duration: 1000,
+                easing: 'easeInOutSine'
+              }
           });
 
       },[]);

@@ -1,11 +1,5 @@
-.home {
-    background-image: url("./codegif3.gif");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-}
-
 #greeting-display{
+    opacity: 95%;
     font-family: raisonne;
     font-size: 10vh;
 }

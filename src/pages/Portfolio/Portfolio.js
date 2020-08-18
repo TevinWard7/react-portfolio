@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import "./portfolio.css";
 import burgerImg from "./img/burger.png";
 import weatherImg from "./img/weather.png";
@@ -9,15 +9,15 @@ import anime from 'animejs/lib/anime.es.js';
 const Portfolio = () => {
 
     useEffect(() => {
-        window.addEventListener("scroll", () => {
-            anime({
-                targets: '.links',
-                opacity: 0,
-                // translateY: -100,
-                easing: 'linear',
-                duration: 500
-              });
-        })
+        
+        anime({
+            targets: '.linksContainer',
+              rotate: {
+                value: 360,
+                duration: 1000,
+                easing: 'easeInOutSine'
+              }
+          });
 
     },[])
 

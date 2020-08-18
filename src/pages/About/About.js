@@ -5,6 +5,7 @@ import linkdIMg from "./img/linkedi.png"
 import "./style.css";
 
 const About = () => {
+
     return(
         <div class="row myContainer">
 
