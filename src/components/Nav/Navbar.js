@@ -17,7 +17,7 @@ const Navbar = () => {
     });
 
 return(
-    <nav id="navbar" class="navbar navbar-expand-md" style={{zIndex: 10}}>
+    <nav id="navbar" class="navbar navbar-expand-md"  style={{zIndex: 10}}>
 
     <div class="navbar w-100 order-1" id="logo">
 

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
-import anime from 'animejs/lib/anime.es.js';
 
 const Home = () => {
 
@@ -15,15 +14,6 @@ const Home = () => {
     useEffect(() => {
 
         setInterval(displayNewHello, 2000);
-
-        anime({
-            targets: '#greeting-display',
-              rotate: {
-                value: 360,
-                duration: 1000,
-                easing: 'easeInOutSine'
-              }
-          });
 
       },[]);
 

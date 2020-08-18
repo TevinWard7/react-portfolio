@@ -17,8 +17,7 @@
 
 .nav-link:hover {
 	color: black;
-	background-size: contain;
-	background-repeat: no-repeat;
+	text-shadow: currentColor 20px;
 }
 
 .left-side {
@@ -32,7 +31,8 @@
 
 @media screen and (max-width: 760px) {
 
-	.links {
-		width: 50%;
+	#navbar {
+position: relative;
 	}
+	
 }
