@@ -47,8 +47,7 @@
 #app-1-details, #app-2-details, #app-3-details, #app-4-details {
 	border-width: thin;
 	border-style: solid;
-	border-color: gainsboro;
-	background-color: #e1d4c0;
+	border-color: #e1d4c0;
 	text-align: center;
 	opacity: 1;
 	margin: auto;
