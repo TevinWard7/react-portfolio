@@ -10,7 +10,9 @@ const About = () => {
         <div class="row myContainer">
 
         <div class="col-12">
-            <p class="linked-pages-text">Programmer based out of Goldsboro, North Carolina with a coding certification from UNC Chapel Hill Full Stack Developer Bootcamp</p>
+
+            {/* <img alt="profile" height="100" width="100"></img> */}
+            <p class="linked-pages-text">Programmer based out of Goldsboro, North Carolina with a coding certification from UNC Chapel Hill Bootcamp. I like creating and learning new things.</p>
 
             <br/>
 
