@@ -46,7 +46,7 @@ const Portfolio = () => {
                 <div >
                 <p>Like burgers? Make a list of some you want to eat and keep note of wich ones you've devoured</p>
                 <p>Tech Used:</p>
-                <p></p>
+                <p>HTML5, CSS3, Javascript, Bootstrap, Express, Handlebars, MySQL</p>
                 </div>
             </div>
 
