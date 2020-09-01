@@ -2,17 +2,24 @@ import React from "react";
 import Resume from "./content/tevin_ward_resume.pdf";
 import gitImg from "./img/github.png";
 import linkdIMg from "./img/linkedi.png"
-import "./style.css";
+import "./about.css";
 
 const About = () => {
 
     return(
-        <div class="row myContainer">
+        <div class="myContainer">
+            
+            <p class="linked-pages-text">
 
-        <div class="col-12">
+                Hello, I'm Tevin Ward. A full-stack developer based out of Goldsboro, North Carolina with a coding certification from UNC Chapel Hill Bootcamp. I enjoy the journey and excitement of learning while building. I find programming challenging but inherently rewarding and always novel in some way, which always makes it lots of fun!
 
-            {/* <img alt="profile" height="100" width="100"></img> */}
-            <p class="linked-pages-text">Programmer based out of Goldsboro, North Carolina with a coding certification from UNC Chapel Hill Bootcamp. I like creating and learning new things.</p>
+                <br/>
+                <br/>
+                Proficiencies:
+                <br/>
+                <br/>
+                React, ES6, CSS, Node.js, Express, Mongoose, HTML5
+            </p>
 
             <br/>
 
@@ -24,8 +31,6 @@ const About = () => {
             <a href="https://www.linkedin.com/in/tevin-ward-bb1494150/" >  <img src={linkdIMg} alt="github-link" height="30" width="30" />  </a>
 
         </div>
-
-    </div>
     )
 };
 

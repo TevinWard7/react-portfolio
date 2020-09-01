@@ -14,9 +14,9 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% cover;
-	position: relative;
+	/* position: relative;
 	padding-bottom: 58px;
-	min-height: 100vh;
+	min-height: 50vh; */
 	
 	background-image: url(./fish.gif);
     background-color: white;
@@ -25,8 +25,8 @@ body {
 }
 
 .myContainer {
-	margin-top: 200px;
-	margin-bottom: 200px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	text-align: center;
 }
 
