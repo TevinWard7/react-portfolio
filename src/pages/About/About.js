@@ -11,7 +11,7 @@ const About = () => {
             
             <p class="linked-pages-text">
 
-                Hello, I'm Tevin Ward. A full-stack developer based out of Goldsboro, North Carolina with a coding certification from UNC Chapel Hill Bootcamp. I enjoy the journey and excitement of learning while building. I find programming challenging but inherently rewarding and always novel in some way, which always makes it lots of fun!
+                Hello, I'm Tevin Ward. A full-stack developer based out of Goldsboro, North Carolina with a coding certification from UNC Chapel Hill Bootcamp. I enjoy the journey and excitement of learning while building and find the challenge of programming to be at times frustrating but inherently rewarding.
 
                 <br/>
                 <br/>
@@ -23,8 +23,10 @@ const About = () => {
 
             <br/>
 
-            <a id="resume-link" href={Resume}><h5>Resume</h5></a>
+            <button><a id="resume-link" href={Resume}><h5>Resume</h5></a></button>
 
+            <br/>
+            <br/>
             <br/>
 
             <a href="https://github.com/TevinWard7">  <img src={gitImg} alt="github-link" height="30" width="30" />  </a>|

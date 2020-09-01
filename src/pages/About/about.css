@@ -1,6 +1,18 @@
 #resume-link {
 	color: black;
 	text-decoration: underline;
+	box-shadow: 5px 10px;
+}
+
+button {
+	border-width: thin;
+	border-style: solid;
+	border-color: #e1d4c0;
+	text-align: center;
+	padding: 10px;
+	font-size: medium;
+	box-shadow: 10px 10px black;
+	background-color: white;
 }
 
 p {
