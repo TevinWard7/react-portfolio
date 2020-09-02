@@ -9,7 +9,7 @@ const About = () => {
     return(
         <div class="myContainer">
             
-            <p class="linked-pages-text">
+              <p class="linked-pages-text">
 
                 Hello, I'm Tevin Ward. A full-stack developer based out of Goldsboro, North Carolina with a coding certification from UNC Chapel Hill Bootcamp. I enjoy the journey and excitement of learning while building and find the challenge of programming to be at times frustrating but inherently rewarding.
 
@@ -21,17 +21,17 @@ const About = () => {
                 React, ES6, CSS, Node.js, Express, Mongoose, HTML5
             </p>
 
-            <br/>
+              <br/>
 
-            <button><a id="resume-link" href={Resume}><h5>Resume</h5></a></button>
+              <button><a id="resume-link" href={Resume}><h5>Resume</h5></a></button>
 
-            <br/>
-            <br/>
-            <br/>
+              <br/>
+              <br/>
+              <br/>
 
-            <a href="https://github.com/TevinWard7">  <img src={gitImg} alt="github-link" height="30" width="30" />  </a>|
-            <a href="https://www.linkedin.com/in/tevin-ward-bb1494150/" >  <img src={linkdIMg} alt="github-link" height="30" width="30" />  </a>
-
+              <a href="https://github.com/TevinWard7">  <img src={gitImg} alt="github-link" height="30" width="30" />  </a>|
+              <a href="https://www.linkedin.com/in/tevin-ward-bb1494150/" >  <img src={linkdIMg} alt="github-link" height="30" width="30" />  </a>
+            
         </div>
     )
 };

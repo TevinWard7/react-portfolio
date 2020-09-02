@@ -12,12 +12,8 @@ body {
 	font-family: apercu;
 	color: black;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top;
 	background-size: 100% cover;
-	/* position: relative;
-	padding-bottom: 58px;
-	min-height: 50vh; */
-	
 	background-image: url(./fish.gif);
     background-color: white;
     background-blend-mode: hard-light;
@@ -25,9 +21,10 @@ body {
 }
 
 .myContainer {
+	text-align: center;
+	position: relative;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	text-align: center;
 }
 
 @media screen and (max-width: 760px) {

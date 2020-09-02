@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import "./portfolio.css";
 import burgerImg from "./img/burger.png";
 import weatherImg from "./img/weather.png";
-import fancyTextImg from "./img/fancy-text.png";
+// import fancyTextImg from "./img/fancy-text.png";
 import employeeImg from "./img/employee.png";
 import anime from 'animejs/lib/anime.es.js';
 
@@ -103,7 +103,7 @@ const Portfolio = () => {
             <div className="col-lg-4 col-md-8" id="app-3-details">
                 <p>Check the weather</p>
                 <p>Tech Used:</p>
-                <p></p>
+                <p>HTML5, Bootstrap, CSS3, Javascipt, JQuery</p>
             </div>
 
         </div>
@@ -111,7 +111,7 @@ const Portfolio = () => {
         <br/>
         <br/>
 
-        <div className="row" id="app-4-container">
+        {/* <div className="row" id="app-4-container">
 
             <div className="col-lg-4 col-md-0"></div>
 
@@ -134,7 +134,7 @@ const Portfolio = () => {
                 <p></p>
             </div>
 
-        </div>
+        </div> */}
 
         <br/>
         <br/>

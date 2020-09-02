@@ -44,12 +44,15 @@ const Home = () => {
     
     return(
         <div class="myContainer home">
-    <div class="row text-center">
-        <div class="col-12">
-    <h1 style={myStyle} id="greeting-display">{hello}</h1>
+
+           <div class="row text-center middle">
+
+               <div class="col-12">
+                 <h1 style={myStyle} id="greeting-display">{hello}</h1>
+              </div>
+
+            </div>
         </div>
-    </div>
-</div>
     )
 
 };
