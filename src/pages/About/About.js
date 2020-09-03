@@ -9,7 +9,7 @@ const About = () => {
     return(
         <div class="myContainer">
             
-              <p class="linked-pages-text">
+              <p>
 
                 Hello, I'm Tevin Ward. A full-stack developer based out of Goldsboro, North Carolina with a coding certification from UNC Chapel Hill Bootcamp. I enjoy the journey and excitement of learning while building. For all it's frustrations I find the challenge of programming to be be inherently rewarding, full of novelty, and in it's own right; a super power.
 
