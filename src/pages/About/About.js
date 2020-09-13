@@ -29,8 +29,8 @@ const About = () => {
               <br/>
               <br/>
 
-              <a href="https://github.com/TevinWard7">  <img src={gitImg} alt="github-link" height="30" width="30" />  </a>|
-              <a href="https://www.linkedin.com/in/tevin-ward-bb1494150/" >  <img src={linkdIMg} alt="github-link" height="30" width="30" />  </a>
+              <a href="https://github.com/TevinWard7"><img src={gitImg} alt="github-link" height="30" width="30" /></a>|
+              <a href="https://www.linkedin.com/in/tevin-ward-bb1494150/" ><img src={linkdIMg} alt="github-link" height="30" width="30" /></a>
             
         </div>
     )
