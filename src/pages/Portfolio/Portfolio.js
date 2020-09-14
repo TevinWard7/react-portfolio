@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import "./portfolio.css";
 import burgerImg from "./img/burger.png";
 import weatherImg from "./img/weather.png";
-// import fancyTextImg from "./img/fancy-text.png";
+import happeningsImg from "./img/happenings.png";
 import employeeImg from "./img/employee.png";
 import anime from 'animejs/lib/anime.es.js';
 
@@ -111,30 +111,35 @@ const Portfolio = () => {
         <br/>
         <br/>
 
-        {/* <div className="row" id="app-4-container">
+        <div className="row" id="app-4-container">
 
             <div className="col-lg-4 col-md-0"></div>
 
             <div className="col-lg-4 col-md-8">
-                <div className="container" id="app-4" >
-                    <img src={fancyTextImg} alt="Portfolio Site" width="300" height="300" className="folio-image"
-                        id="folio-image-4" ></img>
+                <div className="container" id="app-4">
+                    <img src={happeningsImg} alt="Portfolio Site" width="300" height="300" class="folio-image"
+                        id="folio-image-4"></img>
                     
-                    <div className="text" id="text-4" ><a href="https://github.com/TevinWard7/QuoteConvertor.git"
-                            className="inside-text">GitHub</a><span class="inside-text"> | </span><a
-                            href="https://tevinward7.github.io/QuoteConvertor/" className="inside-text">Live
+                    <div className="text" id="text-4"><a href="https://github.com/TevinWard7/Happenings.git"
+                            class="inside-text">GitHub</a><span class="inside-text"> | </span><a
+                            href="https://what-happenings.herokuapp.com/" className="inside-text">Live
                             Site</a>
                     </div>
                 </div>
             </div>
 
             <div className="col-lg-4 col-md-8" id="app-4-details">
-                <p>Write or generate a quote to be generated in a quirky dialect of your choice</p>
+                <p>Meet up App</p>
                 <p>Tech Used:</p>
-                <p></p>
+                <p>React, React-Carousel, CSS3</p>
             </div>
 
-        </div> */}
+        </div>
+
+        <br/>
+        <br/>
+
+        
 
         <br/>
         <br/>
