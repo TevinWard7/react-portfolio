@@ -44,9 +44,9 @@ const Portfolio = () => {
 
             <div className="col-lg-4 col-md-8" id="app-2-details">
                 <div >
-                <p>Like burgers? Make a list of some you want to eat and keep note of wich ones you've devoured</p>
+                <p>Like burgers? Make a list of some you want to eat and keep note of wich ones you've eaten</p>
                 <p>Tech Used:</p>
-                <p>HTML5, CSS3, Javascript, Bootstrap, Express, Handlebars, MySQL</p>
+                <p>HTML, CSS, Bootstrap, Javascript, JQuery, Node.js, Express, Handlebars and MySQL</p>
                 </div>
             </div>
 
@@ -73,9 +73,9 @@ const Portfolio = () => {
             </div>
             
             <div className="col-lg-4 col-md-8" id="app-1-details">
-                <p>Keep a list of your employees and search them by name.</p>
+                <p>Search a list of your employees by name. Stay on top of who's playing what role</p>
                 <p>Tech Used:</p>
-                <p>HTML5, Bootstrap, CSS3, React</p>
+                <p>React, JSX, JSON, React Hooks and CSS</p>
             </div>
 
         </div>
@@ -101,9 +101,9 @@ const Portfolio = () => {
             </div>
 
             <div className="col-lg-4 col-md-8" id="app-3-details">
-                <p>Check the weather</p>
+                <p>See a 5 day forecast in a city of your choosing</p>
                 <p>Tech Used:</p>
-                <p>HTML5, Bootstrap, CSS3, Javascipt, JQuery</p>
+                <p>HTML, CSS, Bootstrap, Javascript, JQuery, Node.js, Express, Handlebars and MySQL</p>
             </div>
 
         </div>
@@ -129,9 +129,9 @@ const Portfolio = () => {
             </div>
 
             <div className="col-lg-4 col-md-8" id="app-4-details">
-                <p>Meet up App</p>
+                <p>Social media app that allows you to connect with friends over Meet-up locations</p>
                 <p>Tech Used:</p>
-                <p>React, React-Carousel, CSS3</p>
+                <p>HTML5, React, React-Carousel, CSS3, JSON</p>
             </div>
 
         </div>
