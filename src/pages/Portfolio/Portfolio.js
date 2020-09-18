@@ -44,7 +44,7 @@ const Portfolio = () => {
 
             <div className="col-lg-4 col-md-8" id="app-2-details">
                 <div >
-                <p>Like burgers? Make a list of some you want to eat and keep note of wich ones you've eaten</p>
+                <p>Like burgers? This web based app queries a MySQL database to allow users to create and maintain a list of them that have been eaten or not</p>
                 <p>Tech Used:</p>
                 <p>HTML, CSS, Bootstrap, Javascript, JQuery, Node.js, Express, Handlebars and MySQL</p>
                 </div>
@@ -73,7 +73,7 @@ const Portfolio = () => {
             </div>
             
             <div className="col-lg-4 col-md-8" id="app-1-details">
-                <p>Search a list of employees by name and see who's playing what role</p>
+                <p>This app provides a way for you to search a list of employee names in order to keep track of them and see what role they play in a company</p>
                 <p>Tech Used:</p>
                 <p>React, JSX, JSON, React Hooks and CSS</p>
             </div>
@@ -101,7 +101,7 @@ const Portfolio = () => {
             </div>
 
             <div className="col-lg-4 col-md-8" id="app-3-details">
-                <p>See a 5 day weather forecast in a city of your choosing</p>
+                <p>A dashboard style website pulling from an API to provide you a 5 day weather forecast in a city of your choosing</p>
                 <p>Tech Used:</p>
                 <p>HTML, CSS, Bootstrap, Javascript, JQuery, Node.js, Express, Handlebars and MySQL</p>
             </div>
