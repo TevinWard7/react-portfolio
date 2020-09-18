@@ -73,7 +73,7 @@ const Portfolio = () => {
             </div>
             
             <div className="col-lg-4 col-md-8" id="app-1-details">
-                <p>Search a list of your employees by name. Stay on top of who's playing what role</p>
+                <p>Search a list of employees by name and see who's playing what role</p>
                 <p>Tech Used:</p>
                 <p>React, JSX, JSON, React Hooks and CSS</p>
             </div>
@@ -101,7 +101,7 @@ const Portfolio = () => {
             </div>
 
             <div className="col-lg-4 col-md-8" id="app-3-details">
-                <p>See a 5 day forecast in a city of your choosing</p>
+                <p>See a 5 day weather forecast in a city of your choosing</p>
                 <p>Tech Used:</p>
                 <p>HTML, CSS, Bootstrap, Javascript, JQuery, Node.js, Express, Handlebars and MySQL</p>
             </div>
