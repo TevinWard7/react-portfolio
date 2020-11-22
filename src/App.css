@@ -4,20 +4,38 @@
 }
 
 @font-face {
-	src: url(./fonts/Raisonne/Raisonne_Demibold.otf);
+	src: url(./fonts/Apercu/Apercu\ Pro\ Bold.otf);
+	font-family: apercu-bold;
+}
+
+@font-face {
+	src: url(./fonts/Raisonne/Raisonne.otf);
 	font-family: raisonne;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 body {
 	font-family: apercu;
-	color: black;
-	background-repeat: no-repeat;
-	background-position: top;
-	background-size: 100% cover;
-	background-image: url(./fish.gif);
-    background-color: white;
-    background-blend-mode: hard-light;
-    background-size: cover;
+	color: #28282a;
+	background-color: #ffe2e1;
+}
+
+.wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 25px;
+}
+
+h1 {
+	font-family: apercu-bold;
+	font-size: 100px;
+}
+
+p {
+	font-family: raisonne;
 }
 
 .myContainer {
@@ -25,12 +43,4 @@ body {
 	position: relative;
 	padding-top: 140px;
 	padding-bottom: 140px;
-}
-
-p {
-	background: rgba(255,255,255, 0.7)
-}
-
-@media screen and (max-width: 760px) {
-
 }

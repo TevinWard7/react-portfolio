@@ -1,7 +1,6 @@
 import React from 'react';
 import "./App.css";
 import Navbar from "./components/Nav/Navbar";
-import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Portfolio from "./pages/Portfolio/Portfolio";
@@ -17,7 +16,6 @@ function App() {
       <Route path="/portfolio" component={Portfolio} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
-    <Footer />
     </>
     </Router>
   );

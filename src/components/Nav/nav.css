@@ -1,38 +1,24 @@
-.linkedpages-bck {
-	font-family: apercu;
-	color: white;
-	background-image: none;
-	
+.nav-links ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-#navbar {
-	position: sticky;
-	top: 0;
+.nav-links a {
+	color: inherit;
+	padding: 1rem;
+	text-decoration: none;
 }
 
-.nav-link {
-	color: black;
-	margin: 10px;
-}
-
-.nav-link:hover {
+.nav-links a:hover {
 	color: black;
 	text-shadow: currentColor 20px;
 }
 
-.left-side {
-	background-color: #ecdcc9;
-}
-
-/* .links {
-	position: absolute;
-	top: 0;
-} */
-
-@media screen and (max-width: 760px) {
-
-	#navbar {
-position: relative;
-	}
-	
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
 }

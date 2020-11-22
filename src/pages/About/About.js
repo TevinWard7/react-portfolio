@@ -7,32 +7,34 @@ import "./about.css";
 const About = () => {
 
     return(
-        <div class="myContainer" id="about">
-            
-              <p>
+        <>
+            <div class="myContainer" id="about">
+                
+                <p>
 
-                Hello, I'm Tevin Ward. A full-stack developer based out of Goldsboro, North Carolina with a coding certification from UNC Chapel Hill Bootcamp. Passionate about solving programming challenges as well while learning and creating meaningful and beautiful applications.
+                    <h2>Hello</h2>
+                    I'm Tevin Ward. A full-stack developer based out of Goldsboro, North Carolina with a coding certification from UNC Chapel Hill Bootcamp. Passionate about solving programming challenges as well while learning and creating meaningful and beautiful applications.
+
+                    <br/>
+                    <br/>
+                    <strong>Proficiencies:</strong>
+                    <br/>
+                    React, ES6, CSS, Node.js, Express, Mongoose, HTML5
+                </p>
+
+                <br/>
+
+                <button><a id="resume-link" href={Resume}><h5>Resume</h5></a></button>
 
                 <br/>
                 <br/>
-                Proficiencies:
                 <br/>
-                <br/>
-                React, ES6, CSS, Node.js, Express, Mongoose, HTML5
-            </p>
 
-              <br/>
-
-              <button><a id="resume-link" href={Resume}><h5>Resume</h5></a></button>
-
-              <br/>
-              <br/>
-              <br/>
-
-              <a href="https://github.com/TevinWard7">  <img src={gitImg} alt="github-link" height="30" width="30" />  </a>|
-              <a href="https://www.linkedin.com/in/tevin-ward-bb1494150/" >  <img src={linkdIMg} alt="github-link" height="30" width="30" />  </a>
-            
-        </div>
+                <a href="https://github.com/TevinWard7">  <img src={gitImg} alt="github-link" height="30" width="30" />  </a>|
+                <a href="https://www.linkedin.com/in/tevin-ward-bb1494150/" >  <img src={linkdIMg} alt="github-link" height="30" width="30" />  </a>
+                
+            </div>
+        </>
     )
 };
 

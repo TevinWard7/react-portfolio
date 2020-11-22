@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
+import anime from 'animejs/lib/anime.es.js';
+import sun from "./img/sun.png";
+import logo from "../../components/Nav/img/tevinlogo.png"
 
 const Home = () => {
 
@@ -8,19 +11,40 @@ const Home = () => {
 
     const myStyle = {
         color: helloClr,
-        zIndex: '-10'
+        zIndex: "1"
     };
 
     useEffect(() => {
 
         setInterval(displayNewHello, 2000);
 
+        anime({
+                targets: '#logo',
+                rotate: 360, 
+                loop: true,
+                easing: 'linear',
+                duration: 3000
+              });
+    
+        
+        anime({
+            targets: '#greeting-display',
+            keyframes: [
+                {opacity: 0},
+                {opacity: 100},
+                // {fontSize: 250},
+                {opacity: 0},
+              ],
+            loop: true,
+            duration: 20000
+          });
+
       },[]);
 
     const displayNewHello = () => {
 
         // Array containing hello
-        const helloArray = ["Hello", "こんにちは", "হ্যালো", "Привет", "ਸਤ ਸ੍ਰੀ ਅਕਾਲ"];
+        const helloArray = ["こんにちは", "হ্যালো", "Привет", "ਸਤ ਸ੍ਰੀ ਅਕਾਲ"];
 
         // Array containing colors 
         const colors = [
@@ -28,14 +52,20 @@ const Home = () => {
             "#C8B0A6",
             // Gainsboro
             "#E4DCE0",
+            // Rosy brown
+            "#C8B0A6",
+            // Gainsboro
+            "#E4DCE0",
+            // Rosy brown
+            "#C8B0A6",
             // Dark sea green
-            "#AFB4A7",
+            // "#AFB4A7",
             // Pale goldenrod
-            "#E8CBB1"
+            // "#E8CBB1"
         ];
 
         // Generates randomnumber
-        const randomNumber = Math.floor(Math.random() * 5);
+        const randomNumber = Math.floor(Math.random() * 4);
         
         setHello(helloArray[randomNumber]);
         setHelloClr(colors[randomNumber]);
@@ -43,14 +73,19 @@ const Home = () => {
     };
     
     return(
-        <div class="myContainer home">
+        <div className="home">
+            <div className="row text-center koi-fish">
 
-           <div class="row text-center middle">
+                <div className="col">
+                    <a href="/"><img id="logo" src={logo} alt="logo" width="100" height="100"/></a>
+                    <h1 id="name">Tevin Ward</h1>
+                    <p>Full-Stack Developer</p>
+                </div>
+       
+            </div>
 
-               <div class="col-12">
-                 <h1 style={myStyle} id="greeting-display">{hello}</h1>
-              </div>
-
+            <div className="col-6 greetings">
+                <h1 style={myStyle} id="greeting-display" >{hello}</h1>
             </div>
         </div>
     )
