@@ -31,7 +31,7 @@ const Portfolio = () => {
 
                     <div className="col-lg-4 col-md-0"></div>
 
-                    <div className="col-lg-4 col-md-8">
+                    <div className="col-lg-4 col-md-12">
 
                         <div className="container" id="app-2">
 
@@ -48,12 +48,12 @@ const Portfolio = () => {
 
                     </div>
 
-                    <div className="col-lg-4 col-md-8" id="app-2-details">
+                    <div className="col-lg-4 col-md-12" >
 
-                        <div>
-                        <p>Like burgers? This web based app queries a MySQL database to allow users to create and maintain a list of them that have been eaten or not</p>
-                        <p>Tech Used:</p>
-                        <p>HTML, CSS, Bootstrap, Javascript, JQuery, Node.js, Express, Handlebars and MySQL</p>
+                        <div id="app-2-details">
+                            <p>Like burgers? This web based app queries a MySQL database to allow users to create and maintain a list of them that have been eaten or not</p>
+                            <p>Tech Used:</p>
+                            <p>HTML, CSS, Bootstrap, Javascript, JQuery, Node.js, Express, Handlebars and MySQL</p>
                         </div>
 
                     </div>
@@ -86,11 +86,13 @@ const Portfolio = () => {
 
                     </div>
 
-                    <div className="col-lg-4 col-md-8" id="app-1-details">
+                    <div className="col-lg-4 col-md-8">
 
-                        <p>This app provides a way for you to search a list of employee names in order to keep track of them and see what role they play in a company</p>
-                        <p>Tech Used:</p>
-                        <p>React, JSX, JSON, React Hooks and CSS</p>
+                        <div id="app-1-details">
+                            <p>This app provides a way for you to search a list of employee names in order to keep track of them and see what role they play in a company</p>
+                            <p>Tech Used:</p>
+                            <p>React, JSX, JSON, React Hooks and CSS</p>
+                        </div>
 
                     </div>
          
@@ -121,12 +123,14 @@ const Portfolio = () => {
 
                     </div>
 
-                    <div className="col-lg-4 col-md-8" id="app-3-details">
+                    <div className="col-lg-4 col-md-8">
 
-                        <p>A dashboard style website pulling from an API to provide you a 5 day weather forecast in a city of your choosing</p>
-                        <p>Tech Used:</p>
-                        <p>HTML, CSS, Bootstrap, Javascript, JQuery, Node.js, Express, Handlebars and MySQL</p>
-
+                        <div id="app-3-details"> 
+                            <p>A dashboard style website pulling from an API to provide you a 5 day weather forecast in a city of your choosing</p>
+                            <p>Tech Used:</p>
+                            <p>HTML, CSS, Bootstrap, Javascript, JQuery, Node.js, Express, Handlebars and MySQL</p>
+                        </div>
+                        
                     </div>
 
                 </div>
@@ -158,12 +162,14 @@ const Portfolio = () => {
 
                     </div>
 
-                    <div className="col-lg-4 col-md-8" id="app-4-details">
+                    <div className="col-lg-4 col-md-8">
 
-                        <p>Social media app that allows you to connect with friends over Meet-up locations</p>
-                        <p>Tech Used:</p>
-                        <p>HTML5, React, React-Carousel, CSS3, JSON</p>
-
+                        <div id="app-4-details">
+                            <p>Social media app that allows you to connect with friends over Meet-up locations</p>
+                            <p>Tech Used:</p>
+                            <p>HTML5, React, React-Carousel, CSS3, JSON</p>
+                        </div>
+                        
                     </div>
 
                 </div>
