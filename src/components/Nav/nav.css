@@ -22,3 +22,9 @@ header {
 	align-items: center;
 	height: 80px;
 }
+
+@media only screen and (max-width: 600px) {
+	header {
+	  justify-content: center;
+	}
+  }
