@@ -74,6 +74,7 @@ const Home = () => {
     
     return(
         <div className="home">
+
             <div className="row text-center koi-fish">
 
                 <div className="col">
@@ -87,6 +88,7 @@ const Home = () => {
             <div className="col-6 greetings">
                 <h1 style={myStyle} id="greeting-display" >{hello}</h1>
             </div>
+            
         </div>
     )
 
