@@ -1,7 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./nav.css";
-import logo from "./img/tevinlogo.png";
-import anime from 'animejs/lib/anime.es.js';
 
 const Navbar = () => {
 

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
 import anime from 'animejs/lib/anime.es.js';
-import sun from "./img/sun.png";
 import logo from "../../components/Nav/img/tevinlogo.png"
 
 const Home = () => {
@@ -88,7 +87,7 @@ const Home = () => {
             <div className="col-6 greetings">
                 <h1 style={myStyle} id="greeting-display" >{hello}</h1>
             </div>
-            
+
         </div>
     )
 
