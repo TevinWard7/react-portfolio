@@ -23,7 +23,7 @@ const Home = () => {
                 loop: true,
                 easing: 'linear',
                 duration: 3000
-              });
+        });
     
         
         anime({
@@ -36,9 +36,9 @@ const Home = () => {
               ],
             loop: true,
             duration: 20000
-          });
+        });
 
-      },[]);
+    },[]);
 
     const displayNewHello = () => {
 
