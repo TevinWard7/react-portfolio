@@ -23,15 +23,16 @@ const Portfolio = () => {
 
     return(
         <>
-            <div class="linksContainer">
+
+            <div className="linksContainer">
 
                 {// Row & App 1
                 }
                 <div className="row" id="app-2-container">
 
-                    <div className="col-lg-4 col-md-0"></div>
+                    <div className="col-lg-4"></div>
 
-                    <div className="col-lg-4 col-md-12">
+                    <div className="col-lg-4">
 
                         <div className="container" id="app-2">
 
@@ -48,7 +49,7 @@ const Portfolio = () => {
 
                     </div>
 
-                    <div className="col-lg-4 col-md-12" >
+                    <div className="col-lg-4">
 
                         <div id="app-2-details">
                             <p>Like burgers? This web based app queries a MySQL database to allow users to create and maintain a list of them that have been eaten or not</p>
@@ -182,6 +183,7 @@ const Portfolio = () => {
                 <br/>
 
             </div>
+
         </>
     )
 

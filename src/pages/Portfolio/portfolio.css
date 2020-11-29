@@ -81,3 +81,10 @@
 #app-1-container:hover #app-1-details, #app-2-container:hover #app-2-details, #app-3-container:hover #app-3-details, #app-4-container:hover #app-4-details  {
 	opacity: 1;
 }
+
+@media only screen and (max-width: 600px) {
+	.wrapper  {
+	  display: flex;
+	  align-items: center;
+	}
+  }
