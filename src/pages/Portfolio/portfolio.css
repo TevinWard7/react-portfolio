@@ -5,7 +5,12 @@
 
 .linksContainer {
 	text-align: center;
-	/* background: rgba(255,255,255) */
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 25px;
+	/* background-color: white; */
+	/* background-color: #f1dfd1; 
+	background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%); */
 }
 
 /* .linksContainer > .row {
@@ -18,9 +23,9 @@
 
 .container {
 	position: relative;
-	width: 300px;
+	/* width: 500px;
 	height: 300px;
-	padding: 20px;
+	padding: 20px; */
 	/* border-radius: 2px;
 	box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
 }
@@ -38,7 +43,7 @@
 	font-size: 30px;
 	opacity: 0;
 	font-family: apercu-bold;
-	background-color: #ffe2e1;
+	background-color: rgba(255, 255, 255, 0.678);
 	padding: 1rem;
 	/* border-width: thin;
 	border-style: solid; */
@@ -58,15 +63,15 @@
 }
 
 #app-1-details, #app-2-details, #app-3-details, #app-4-details {
-	border-width: thin;
-	border-style: solid;
+	/* border-width: thin;
+	border-style: solid; */
 	/* border-color: #e1d4c0; */
 	text-align: center;
 	/* margin: auto; */
     width: 100%;
 	opacity: 0;
 	font-size: medium;
-	box-shadow: 10px 10px black;
+	/* box-shadow: 10px 10px black; */
 	padding: 1rem 1rem;
 	margin: 3rem;
 	
@@ -82,9 +87,9 @@
 	opacity: 1;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 	.wrapper  {
 	  display: flex;
 	  align-items: center;
 	}
-  }
+} */

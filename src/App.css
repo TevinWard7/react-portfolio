@@ -20,18 +20,19 @@
 body {
 	font-family: apercu;
 	color: #28282a;
-	background-color: #ffe2e1;
+	/* background-color: #f1dfd1;
+	background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%); */
 }
 
-.wrap {
+/* .wrap {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 25px;
-}
+} */
 
 h1 {
 	font-family: apercu-bold;
-	font-size: 100px;
+	font-size: 120px;
 }
 
 p {

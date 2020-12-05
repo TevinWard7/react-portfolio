@@ -1,21 +1,7 @@
-import React, {useEffect} from "react";
-import anime from 'animejs/lib/anime.es.js';
+import React from "react";
 import "./contact.css";
 
 const Contact = () => {
-
-    useEffect(() => {
-        
-        anime({
-            targets: '.myContainer',
-              rotate: {
-                value: 360,
-                duration: 1000,
-                easing: 'easeInOutSine'
-              }
-          });
-
-    },[])
 
     return(
         <div class="myContainer">

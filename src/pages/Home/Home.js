@@ -7,6 +7,9 @@ const Home = () => {
 
     const [hello, setHello] = useState();
     const [helloClr, setHelloClr] = useState();
+    window.addEventListener('scroll', () => {
+        document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+    }, false);
 
     const myStyle = {
         color: helloClr,
@@ -23,19 +26,6 @@ const Home = () => {
                 loop: true,
                 easing: 'linear',
                 duration: 3000
-        });
-    
-        
-        anime({
-            targets: '#greeting-display',
-            keyframes: [
-                {opacity: 0},
-                {opacity: 100},
-                // {fontSize: 250},
-                {opacity: 0},
-              ],
-            loop: true,
-            duration: 20000
         });
 
     },[]);
@@ -72,14 +62,14 @@ const Home = () => {
     };
     
     return(
-        <div className="home">
+        <div className="home-page">
 
-            <div className="row text-center koi-fish">
+            <div className="row text-center background">
 
                 <div className="col">
                     <a href="/"><img id="logo" src={logo} alt="logo" width="100" height="100"/></a>
                     <h1 id="name">Tevin Ward</h1>
-                    <p>Full-Stack Developer</p>
+                    <p id="title">Full-Stack Developer</p>
                 </div>
        
             </div>

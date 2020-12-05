@@ -1,21 +1,33 @@
 #resume-link {
 	color: black;
 	text-decoration: underline;
-	box-shadow: 5px 10px;
 }
 
 button {
-	border-width: thin;
-	border-style: solid;
-	/* border-color: #e1d4c0; */
+	border: none;
+	/* border-width: thin;
+	border-style: solid; */
 	text-align: center;
 	padding: 10px;
 	font-size: medium;
-	box-shadow: 10px 10px black;
-	background-color: #ffe2e1;
-}
+	/* box-shadow: 10px 10px black; */
+	background-color: inherit;
+}	
 
 #about > p {
 	line-height: 2rem;
 	font-size: 15px;
+	/* background-color: #f1dfd1; */
+	/* background-image: linear-gradient(315deg, #f1dfd1c2 0%, #f6f0eac5 74%); */
+	background-color: rgba(255, 255, 255, 0.822);
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 25px;
+	
+}
+
+#about {
+	background-image: url(./img/birds.gif);
+	background-repeat: no-repeat;
+	/* background-color: white; */
 }

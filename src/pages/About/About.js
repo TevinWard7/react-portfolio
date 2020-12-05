@@ -1,8 +1,9 @@
 import React from "react";
 import Resume from "./content/tevin_ward_resume.pdf";
 import gitImg from "./img/github.png";
-import linkdIMg from "./img/linkedi.png"
+import linkdIMg from "./img/linkedi.png";
 import "./about.css";
+
 
 const About = () => {
 
@@ -19,7 +20,7 @@ const About = () => {
                     <br/>
                     <strong>Proficiencies:</strong>
                     <br/>
-                    React, ES6, CSS, Node.js, Express, Mongoose, HTML5
+                    React.js, JavaScript, Node.js, HTML, CSS, MySQL, MongoDB
                 </p>
 
                 <br/>
