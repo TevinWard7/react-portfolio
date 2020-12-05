@@ -90,5 +90,9 @@
 @media only screen and (max-width: 600px) {
 	#app-1-details, #app-2-details, #app-3-details, #app-4-details {
 		width: fit-content;
+		opacity: 1;
+	}
+	#app-1 #text-1, #app-2 #text-2, #app-3 #text-3, #app-4 #text-4 {
+		opacity: 1;
 	}
 }
