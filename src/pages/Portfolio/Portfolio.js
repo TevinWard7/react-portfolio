@@ -22,7 +22,7 @@ const Portfolio = () => {
                 }
                 <div data-aos="flip-left" className="row" id="app-1-container">
 
-                    <div className="col">
+                    <div className="col-lg col-md-12">
 
                         <div className="container" id="app-1">
 
@@ -39,7 +39,7 @@ const Portfolio = () => {
 
                     </div>
 
-                    <div className="col">
+                    <div className="col-lg col-md-12">
 
                         <div id="app-1-details">
                             <p>A minimalist's web application that takes the effort out of deciding what to wear by algorithmically determining an outfit each day according to the weather</p>
@@ -58,7 +58,7 @@ const Portfolio = () => {
                 }
                 <div data-aos="flip-right" className="row" id="app-2-container">
 
-                    <div className="col">
+                    <div className="col-lg col-md-12">
 
                         <div id="app-2">
 
@@ -75,7 +75,7 @@ const Portfolio = () => {
 
                     </div>
 
-                    <div className="col">
+                    <div className="col-lg col-md-12">
 
                         <div id="app-2-details">
                             <p>Like burgers? This web based app queries a MySQL database to allow users to create and maintain a list of them that have been eaten or not</p>
@@ -96,7 +96,7 @@ const Portfolio = () => {
                 }
                 <div data-aos="flip-left" className="row" id="app-3-container">
 
-                    <div className="col">
+                    <div className="col-lg col-md-12">
 
                         <div className="container" id="app-3">
                             <img src={recipeImg} alt="Portfolio Site" width="300" height="300" class="folio-image"
@@ -111,7 +111,7 @@ const Portfolio = () => {
 
                     </div>
 
-                    <div className="col">
+                    <div className="col-lg col-md-12">
 
                         <div id="app-3-details"> 
                             <p>This application gives the user the ability to search for recipes based on keyword and dietary needs and allows them to view details, walk through the steps, and save recipes to their recipe book.</p>
@@ -131,7 +131,7 @@ const Portfolio = () => {
                 }
                 <div data-aos="flip-right" className="row" id="app-4-container">
 
-                    <div className="col">
+                    <div className="col-lg col-md-12">
                         
                         <div className="container" id="app-4">
 
@@ -149,7 +149,7 @@ const Portfolio = () => {
 
                     </div>
 
-                    <div className="col">
+                    <div className="col-lg col-md-12">
 
                         <div id="app-4-details">
                             <p>Command line application that allows user to keep a record of employees and their given role in a company</p>
