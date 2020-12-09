@@ -23,7 +23,7 @@
 #name, #logo, #title {
     position: relative;
     z-index: 555;
-    text-shadow: rgba(255, 255, 255, 0.795) 0px 0px 10px;  
+    text-shadow: rgba(255, 255, 255, 0.295) 0px 0px 10px;  
 }
 
 #title {
@@ -38,4 +38,14 @@
     background-repeat: no-repeat;
     z-index: 1;
     margin-top: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .background {
+        background-size: 350px;
+    }
+
+    #name, #logo, #title {
+        text-shadow: rgba(255, 255, 255, 0.925) 0px 0px 10px;  
+    }
 }
