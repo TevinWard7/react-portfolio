@@ -42,10 +42,14 @@
 
 @media only screen and (max-width: 600px) {
     .background {
-        background-size: 350px;
+        background-size: 325px;
     }
 
     #name, #logo, #title {
-        text-shadow: rgba(255, 255, 255, 0.925) 0px 0px 10px;  
+        text-shadow: rgb(255, 255, 255) 0px 0px 10px;  
+    }
+
+    #title {
+        text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
     }
 }
