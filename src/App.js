@@ -30,7 +30,7 @@ function App() {
             <Portfolio />       
           </div>
           
-          <div data-aos="fade-down">
+          <div data-aos="fade-up">
               <Contact />
           </div>
 
