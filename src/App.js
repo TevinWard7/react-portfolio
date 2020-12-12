@@ -47,7 +47,7 @@ function App() {
           </Route>
         </div>
 
-        <div data-aos="fade-down">
+        <div data-aos="fade-up">
           <Route exact path="/contact">
             <Contact />
           </Route>
