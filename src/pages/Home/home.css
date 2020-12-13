@@ -34,7 +34,7 @@
 	background-image: url(../../comp.png);
     background-blend-mode: soft-light;
     background-size: contain;
-    background-size: 225px;
+    /* background-size: 225px; */
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
