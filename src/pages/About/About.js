@@ -20,7 +20,7 @@ const About = () => {
                     <br/>
                     <strong>Proficiencies:</strong>
                     <br/>
-                    MongoDB, Express.js, React.js, Node.js, JavaScript (ES6),  HTML CSS
+                    MongoDB, Express.js, React.js, Node.js, JavaScript (ES6),  HTML & CSS
                 </p>
 
                 <br/>
