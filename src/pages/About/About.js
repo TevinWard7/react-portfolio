@@ -14,13 +14,13 @@ const About = () => {
                 <p>
 
                     <h2>Hello</h2>
-                    I'm Tevin Ward. A full-stack developer based out of Goldsboro, North Carolina with a coding certification from UNC Chapel Hill Bootcamp. Passionate about solving programming challenges while learning as well as creating meaningful and beautiful applications.
+                    I'm Tevin Ward. A full-stack developer based out of Raliegh, North Carolina with a coding certification from UNC Chapel Hill Bootcamp. Passionate about solving programming challenges while learning as well as creating meaningful and beautiful applications.
 
                     <br/>
                     <br/>
                     <strong>Proficiencies:</strong>
                     <br/>
-                    React.js, JavaScript, Node.js, HTML, CSS, MySQL, MongoDB
+                    MongoDB, Express.js, React.js, Node.js, JavaScript (ES6),  HTML CSS
                 </p>
 
                 <br/>
