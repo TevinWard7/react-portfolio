@@ -25,7 +25,7 @@ const About = () => {
 
                 <br/>
 
-                <button><a id="resume-link" href={Resume}><h5>Resume</h5></a></button>
+                {/* <button><a id="resume-link" href={Resume}><h5>Resume</h5></a></button> */}
 
                 <br/>
                 <br/>
