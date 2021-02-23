@@ -14,7 +14,7 @@ const About = () => {
                 <p>
 
                     <h2>Hello</h2>
-                    I'm Tevin Ward. A full-stack developer based out of Raliegh, North Carolina with a coding certification from UNC Chapel Hill Bootcamp. Passionate about solving programming challenges, learning and creating user freindly applications.
+                    I'm Tevin Ward. A full-stack developer based out of Raliegh, North Carolina Passionate about solving programming challenges, learning and creating user freindly applications.
 
                     <br/>
                     <br/>
