@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "./content/tevin_ward_resume.pdf";
+// import Resume from "./content/tevin_ward_resume.pdf";
 import gitImg from "./img/github.png";
 import linkdIMg from "./img/linkedi.png";
 import "./about.css";
