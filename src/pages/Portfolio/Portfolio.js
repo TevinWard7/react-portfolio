@@ -45,6 +45,7 @@ const Portfolio = () => {
                             <p>Created a minimalist web application that takes the effort out of deciding what to wear by allowing users to upload their wardrobe and have outfits automatically determined for them each day according to the local weather</p>
                             <p>Tech Used:</p>
                             <p>React, Firebase, Material-UI, Server-side APIs</p>
+                            <p>Email: myapptest777@gmail.com Password: myapptest123</p>
                         </div>
 
                     </div>
@@ -117,6 +118,7 @@ const Portfolio = () => {
                             <p>Collaborated on a health conscious app providing users a way to find new recipes based on dietary needs, save favorites to a recipe book and receive step by step cooking instructions</p>
                             <p>Tech Used:</p>
                             <p>AJAX, HTTP GET requests, Express, Node.js</p>
+                            <p>Email: myapptest777@gmail.com Password: myapptest123</p>
                         </div>
                         
                     </div>
