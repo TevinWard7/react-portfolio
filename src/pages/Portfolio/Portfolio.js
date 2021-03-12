@@ -42,9 +42,9 @@ const Portfolio = () => {
                     <div className="col-lg col-md-12">
 
                         <div id="app-1-details">
-                            <p>A minimalist's web application that takes the effort out of deciding what to wear by algorithmically determining an outfit each day according to the weather</p>
+                            <p>Created a minimalist web application that takes the effort out of deciding what to wear by allowing users to upload their wardrobe and have outfits automatically determined for them each day according to the local weather</p>
                             <p>Tech Used:</p>
-                            <p>React, Firebase, HTML5, CSS3, JSX</p>
+                            <p>React, Firebase, Material-UI, Server-side APIs</p>
                         </div>
 
                     </div>
@@ -114,9 +114,9 @@ const Portfolio = () => {
                     <div className="col-lg col-md-12">
 
                         <div id="app-3-details"> 
-                            <p>This application gives the user the ability to search for recipes based on keyword and dietary needs and allows them to view details, walk through the steps, and save recipes to their recipe book.</p>
+                            <p>Collaborated on a health conscious app providing users a way to find new recipes based on dietary needs, save favorites to a recipe book and receive step by step cooking instructions</p>
                             <p>Tech Used:</p>
-                            <p>Node.js, Express, HTML5, CSS</p>
+                            <p>AJAX, HTTP GET requests, Express, Node.js</p>
                         </div>
                         
                     </div>
