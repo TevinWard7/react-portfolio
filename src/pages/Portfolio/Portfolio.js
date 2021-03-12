@@ -42,7 +42,7 @@ const Portfolio = () => {
                     <div className="col-lg col-md-12">
 
                         <div id="app-1-details">
-                            <p>Minimalist web application that takes the effort out of deciding what to wear by allowing users to upload their wardrobe and have outfits automatically determined for them each day according to the local weather</p>
+                            <p>Minimalist web application that takes effort out of deciding what to wear by allowing you to upload your wardrobe and have outfits automatically chosen for you each day based on local weather</p>
                             <p>Tech Used:</p>
                             <p>React, Firebase, Material-UI, Server-side APIs</p>
                             <hr></hr>
@@ -116,7 +116,7 @@ const Portfolio = () => {
                     <div className="col-lg col-md-12">
 
                         <div id="app-3-details"> 
-                            <p>Health conscious app providing users a way to find new recipes based on dietary needs, save favorites to a recipe book and receive step by step cooking instructions</p>
+                            <p>Minimalist web application that takes effort out of deciding what to wear by allowing you to upload your wardrobe and have outfits automatically chosen for you each day based on local weather</p>
                             <p>Tech Used:</p>
                             <p>AJAX, HTTP GET requests, Express, Node.js</p>
                             <hr></hr>
@@ -156,7 +156,7 @@ const Portfolio = () => {
                     <div className="col-lg col-md-12">
 
                         <div id="app-4-details">
-                            <p>Command line application that allows user to keep a record of employees and their given role in a company</p>
+                            <p>command line app that helps you stay organized by keeping record of employees and their given role in a company</p>
                             <p>Tech Used:</p>
                             <p>Javascript, Node.js, Axios, MySQL</p>
                         </div>
