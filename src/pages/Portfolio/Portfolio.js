@@ -156,7 +156,7 @@ const Portfolio = () => {
                     <div className="col-lg col-md-12">
 
                         <div id="app-4-details">
-                            <p>command line app that helps you stay organized by keeping record of employees and their given role in a company</p>
+                            <p>Command line app that helps you stay organized by keeping record of employees and their given role in a company</p>
                             <p>Tech Used:</p>
                             <p>Javascript, Node.js, Axios, MySQL</p>
                         </div>
