@@ -6,7 +6,7 @@ const Contact = () => {
     return(
         <div class="myContainer">
             
-            <p class="linked-pages-text">tevin@tevinward.com</p>
+            <p class="linked-pages-text"><a id="email-link" href="mailto:tevin@tevinward.com">tevin@tevinward.com</a></p>
 
         </div>
     )
