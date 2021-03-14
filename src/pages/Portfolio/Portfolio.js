@@ -116,7 +116,7 @@ const Portfolio = () => {
                     <div className="col-lg col-md-12">
 
                         <div id="app-3-details"> 
-                            <p>Minimalist web application that takes effort out of deciding what to wear by allowing you to upload your wardrobe and have outfits automatically chosen for you each day based on local weather</p>
+                            <p>Foodie & health conscious app that gives you power over your diet by making it easy to find new recipes based on dietary needs. Save favorite recipes to a book and even receive step by step cooking instructions</p>
                             <p>Tech Used:</p>
                             <p>AJAX, HTTP GET requests, Express, Node.js</p>
                             <hr></hr>
