@@ -69,6 +69,7 @@ const Home = () => {
                 <div className="col">
                     <a href="/"><img id="logo" src={logo} alt="logo" width="100" height="100"/></a>
                     <h1 id="name">Tevin Ward</h1>
+                    <hr id="line"/>
                     <p id="title">Full-Stack Developer</p>
                 </div>
        

@@ -23,28 +23,29 @@
 #name, #logo, #title {
     position: relative;
     z-index: 555;
-    text-shadow: rgb(255, 255, 255) 0px 0px 10px;  
+    /* text-shadow: rgb(255, 255, 255) 0px 0px 10px;   */
 }
 
-/* #title {
-    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
-} */
+#line {
+    width: 30%;
+    border: 0.1px solid black;
+}
 
 .background {
 	background-image: url(../../comp.png);
     background-blend-mode: soft-light;
     background-size: contain;
-    /* background-size: 225px; */
-    background-position: center;
+    background-size: 230px;
+    background-position: left;
     background-repeat: no-repeat;
     z-index: 1;
     margin-top: 3rem;
 }
 
 @media only screen and (max-width: 600px) {
-    .background {
+    /* .background {
         background-size: 325px;
-    }
+    } */
     #title {
     text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
     }
