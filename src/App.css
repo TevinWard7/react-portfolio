@@ -20,7 +20,9 @@
 body {
 	font-family: apercu;
 	color: #28282a;
-	background-color: #fcf3df
+	background-color: #fcf3df;
+	cursor: url(./binary.png), 10 3 pointer;
+	font-size: 21.42px;
 	/* background-color: #f1dfd1;
 	background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%); */
 }
@@ -33,11 +35,12 @@ body {
 
 h1 {
 	font-family: apercu-bold;
-	font-size: 120px;
+	font-size: 130px;
 }
 
 p {
 	font-family: raisonne;
+	font-size: 18.57px;
 }
 
 .myContainer {
