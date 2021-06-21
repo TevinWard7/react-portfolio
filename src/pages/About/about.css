@@ -15,19 +15,33 @@ button {
 }	
 
 #about > p {
-	line-height: 2rem;
-	/* font-size: 15px; */
-	/* background-color: #f1dfd1; */
-	/* background-image: linear-gradient(315deg, #f1dfd1c2 0%, #f6f0eac5 74%); */
-	/* background-color: rgba(255, 255, 255, 0.822); */
-	background-color: #fcf3dfd3;
+	font-size: 65px;
+	/* color: black; */
+	color: #f8d1e5;
+	text-shadow:#E4DCE0 1px 0 50p;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 25px;
+
+	background-image: url(../../comp.png);
+    background-blend-mode: soft-light;
+    background-size: contain;
+    background-size: 230px;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+#para-2 {
+	color: black;
 }
 
 #about {
-	background-image: url(./img/birds.gif);
+	background-image: url(../../binary.png);
 	background-repeat: no-repeat;
+	/* background-size: auto; */
+	background-size: 530px;
+	background-position: left;
 	/* background-color: #fcf3df; */
 }

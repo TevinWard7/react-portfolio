@@ -14,9 +14,14 @@ const Portfolio = () => {
       }, [])
 
     return(
-        <>
+        <div id="portfolio-pg">
 
             <div className="linksContainer">
+
+                <br/>
+                <br/>
+                <br/>
+                <br/>
 
                 {// Row & App 1
                 }
@@ -29,22 +34,31 @@ const Portfolio = () => {
                             <img src={wwcImg} alt="Portfolio Site" width="300" height="300" className="folio-image"
                                 id="folio-image-1" ></img>
                         
-                            <div className="text" id="text-1"><a href="https://github.com/TevinWard7/Weather-Clothes"
+                            {/* <div className="text" id="text-1"><a href="https://github.com/TevinWard7/Weather-Clothes"
                                     className="inside-text">GitHub</a><span class="inside-text"> | </span><a
                                     href="https://weatherwearclothes.com/" className="inside-text">Live
                                     Site</a>
-                            </div>
+                            </div> */}
 
                         </div>
 
                     </div>
 
-                    <div className="col-lg col-md-12">
+                    <div className="col-lg col-md-12 linkwords">
 
                         <div id="app-1-details">
                             <p>Minimalist web application that takes effort out of deciding what to wear by allowing you to upload your wardrobe and have outfits automatically chosen for you each day based on local weather</p>
                             <p>Tech Used:</p>
                             <p>React, Firebase, Material-UI, Server-side APIs</p>
+
+                            <div class="app-links">
+                                <a href="https://github.com/TevinWard7/Weather-Clothes"
+                                    >GitHub</a><span > | </span><a
+                                    href="https://weatherwearclothes.com/">Live
+                                    Site
+                                </a>
+                            </div>
+                            
                             <hr></hr>
                             <i><p>Email: myapptest777@gmail.com Password: myapptest123</p></i>
                         </div>
@@ -58,7 +72,7 @@ const Portfolio = () => {
 
                 {// Row & App 2
                 }
-                <div data-aos="flip-right" className="row" id="app-2-container">
+                {/* <div data-aos="flip-right" className="row" id="app-2-container">
 
                     <div className="col-lg col-md-12">
 
@@ -90,45 +104,8 @@ const Portfolio = () => {
                 </div>
 
                 <br/>
-                <br/>
+                <br/> */}
                 
-
-                {// Row & App 3
-
-                }
-                <div data-aos="flip-left" className="row" id="app-3-container">
-
-                    <div className="col-lg col-md-12">
-
-                        <div className="container" id="app-3">
-                            <img src={recipeImg} alt="Portfolio Site" width="300" height="300" class="folio-image"
-                                id="folio-image-3"></img>
-                            
-                            <div className="text" id="text-3"><a href="https://github.com/TevinWard7/Recipes-Book"
-                                    class="inside-text">GitHub</a><span class="inside-text"> | </span><a
-                                    href="https://create-recipe-book.herokuapp.com/login" className="inside-text">Live
-                                    Site</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div className="col-lg col-md-12">
-
-                        <div id="app-3-details"> 
-                            <p>Foodie & health conscious app that gives you power over your diet by making it easy to find new recipes based on dietary needs. Save favorite recipes to a book and even receive step by step cooking instructions</p>
-                            <p>Tech Used:</p>
-                            <p>AJAX, HTTP GET requests, Express, Node.js</p>
-                            <hr></hr>
-                            <i><p>Email: myapptest777@gmail.com Password: myapptest123</p></i>
-                        </div>
-                        
-                    </div>
-
-                </div>
-
-                <br/>
-                <br/>
 
                 {// Row & App 4
 
@@ -142,23 +119,25 @@ const Portfolio = () => {
                             <img src={trackerImg} alt="Portfolio Site" width="300" height="300" class="folio-image"
                                 id="folio-image-4"></img>
                             
-                            <div className="text" id="text-4"><a href="https://github.com/TevinWard7/employee_tracker"
+                            {/* <div className="text" id="text-4"><a href="https://github.com/TevinWard7/employee_tracker"
                                     class="inside-text">GitHub</a>
-                                    {/* <span class="inside-text"> | </span><a
-                                    href="https://what-happenings.herokuapp.com/" className="inside-text">Live
-                                    Site</a> */}
-                            </div>
+                            </div> */}
 
                         </div>
 
                     </div>
 
-                    <div className="col-lg col-md-12">
+                    <div className="col-lg col-md-12 linkwords">
 
                         <div id="app-4-details">
                             <p>Command line app that helps you stay organized by keeping record of employees and their given role in a company</p>
                             <p>Tech Used:</p>
                             <p>Javascript, Node.js, Axios, MySQL</p>
+                            <div className="app-links">
+                                <a href="https://github.com/TevinWard7/employee_tracker"
+                                    class="inside-text">GitHub
+                                </a>
+                            </div>
                         </div>
                         
                     </div>
@@ -167,14 +146,60 @@ const Portfolio = () => {
 
                 <br/>
                 <br/>
+                <br/>
+                <br/>
 
+                {// Row & App 3
+
+                }
+                <div data-aos="flip-left" className="row" id="app-3-container">
+
+                <div className="col-lg col-md-12">
+
+                    <div className="container" id="app-3">
+                        <img src={recipeImg} alt="Portfolio Site" width="300" height="300" class="folio-image"
+                            id="folio-image-3"></img>
+                        
+                        {/* <div className="text" id="text-3"><a href="https://github.com/TevinWard7/Recipes-Book"
+                                class="inside-text">GitHub</a><span class="inside-text"> | </span><a
+                                href="https://create-recipe-book.herokuapp.com/login" className="inside-text">Live
+                                Site</a>
+                        </div> */}
+                    </div>
+
+                </div>
+
+                <div className="col-lg col-md-12 linkwords">
+
+                    <div id="app-3-details"> 
+                        <p>Foodie & health conscious app that gives you power over your diet by making it easy to find new recipes based on dietary needs. Save favorite recipes to a book and even receive step by step cooking instructions</p>
+                        <p>Tech Used:</p>
+                        <p>AJAX, HTTP GET requests, Express, Node.js</p>
+
+                        <div className="app-links">
+                            <a href="https://github.com/TevinWard7/Recipes-Book"
+                                >GitHub</a><span> | </span><a
+                                href="https://create-recipe-book.herokuapp.com/login">Live
+                                Site
+                            </a>
+                        </div>
+
+                        <hr></hr>
+                        <i><p>Email: myapptest777@gmail.com Password: myapptest123</p></i>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+                <br/>
                 <br/>
                 <br/>
                 <br/>
 
             </div>
 
-        </>
+        </div>
     )
 
 };

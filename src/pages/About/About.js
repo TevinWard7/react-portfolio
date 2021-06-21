@@ -13,23 +13,26 @@ const About = () => {
                 
                 <p>
 
-                    <h2>Hello</h2>
-                    I'm Tevin Ward. A full-stack developer based out of Raliegh, North Carolina Passionate about solving programming challenges, creating user freindly applications, and learning new tech!
+                    {/* <h2>Hello</h2> */}
+                    Full-stack dev based out of Raliegh, North Carolina passionate about effeciency, DRY semantic code, user freindly applications, and learning new tech!
 
                     <br/>
+                    
+                    <p id="para-2">
+                    Main tech stack:
                     <br/>
-                    <strong>Proficiencies:</strong>
-                    <br/>
-                    MongoDB, Express.js, React.js, Node.js, JavaScript (ES6),  HTML & CSS
+                    MERN MongoDB, Express, React, Node.js.
+                     JavaScript (ES6),  HTML & CSS
+                     </p>
                 </p>
 
-                <br/>
+                {/* <br/> */}
 
                 {/* <button><a id="resume-link" href={Resume}><h5>Resume</h5></a></button> */}
 
+                {/* <br/>
                 <br/>
-                <br/>
-                <br/>
+                <br/> */}
 
                 <a href="https://github.com/TevinWard7">  <img src={gitImg} alt="github-link" height="30" width="30" />  </a>|
                 <a href="https://www.linkedin.com/in/tevin-ward-bb1494150/" >  <img src={linkdIMg} alt="github-link" height="30" width="30" />  </a>

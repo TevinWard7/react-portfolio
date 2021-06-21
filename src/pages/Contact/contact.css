@@ -7,6 +7,10 @@
     text-decoration: underline;
 }
 
+#contact-page {
+    font-size: 32px;
+}
+
 /* #contact-page {
     background-image: url(../../codeyegif.gif);
     background-blend-mode: overlay;

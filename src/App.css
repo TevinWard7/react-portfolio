@@ -23,22 +23,22 @@ h1 {
 }
 
 h6 {
-	font-size: 21.42px;
+	font-size: 16px;
 	/* font-family: raisonne; */
 }
 
 body {
 	font-family: apercu;
 	color: #28282a;
-	background-image: linear-gradient(to bottom right, #fcf3df , white);
-	/* background-color: #fcf3df; */
-	cursor: url(./binary.png), 10 3 pointer;
-	font-size: 21.42px;
+	font-size: 16px;
+	/* background-image: url(./doves.gif); */
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 p {
 	font-family: raisonne;
-	font-size: 18.57px;
 }
 
 .myContainer {

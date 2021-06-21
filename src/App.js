@@ -18,6 +18,7 @@ function App() {
   return (
     <Router>
         <Navbar />
+
         <Route exact path="/">
 
             <Home />
@@ -41,6 +42,7 @@ function App() {
             <About/>
           </Route>
         </div>
+        
         <div>
           <Route exact path="/portfolio">
             <Portfolio />
@@ -52,6 +54,7 @@ function App() {
             <Contact />
           </Route>
         </div>
+        
     </Router>
   );
 }

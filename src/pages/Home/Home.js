@@ -13,7 +13,7 @@ const Home = () => {
 
     const myStyle = {
         color: helloClr,
-        zIndex: "1"
+        zIndex: "1",
     };
 
     useEffect(() => {
@@ -25,7 +25,7 @@ const Home = () => {
                 rotate: 360, 
                 loop: true,
                 easing: 'linear',
-                duration: 3000
+                duration: 3000,
         });
 
     },[]);
@@ -33,20 +33,25 @@ const Home = () => {
     const displayNewHello = () => {
 
         // Array containing hello
-        const helloArray = ["こんにちは", "হ্যালো", "Привет", "ਸਤ ਸ੍ਰੀ ਅਕਾਲ"];
+        const helloArray = ["こんにちは", "হ্যালো", "Привет", "ਸਤ ਸ੍ਰੀ ਅਕਾਲ", "Hello"];
 
         // Array containing colors 
         const colors = [
+            "white",
             // Rosy brown
-            "#C8B0A6",
+            // "#C8B0A6",
             // Gainsboro
+            // "#E4DCE0",
             "#E4DCE0",
             // Rosy brown
-            "#C8B0A6",
+            // "#C8B0A6",
+            "white",
+            "white",
+            // "#f8d1e5",
             // Gainsboro
-            "#E4DCE0",
+            // "#E4DCE0",
             // Rosy brown
-            "#C8B0A6",
+            // "#C8B0A6",
             // Dark sea green
             // "#AFB4A7",
             // Pale goldenrod
@@ -54,7 +59,7 @@ const Home = () => {
         ];
 
         // Generates randomnumber
-        const randomNumber = Math.floor(Math.random() * 4);
+        const randomNumber = Math.floor(Math.random() * 5);
         
         setHello(helloArray[randomNumber]);
         setHelloClr(colors[randomNumber]);
@@ -75,7 +80,7 @@ const Home = () => {
        
             </div>
 
-            <div className="col-6 greetings">
+            <div className="greetings">
                 <h1 style={myStyle} id="greeting-display" >{hello}</h1>
             </div>
 

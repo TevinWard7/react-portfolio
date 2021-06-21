@@ -1,16 +1,20 @@
+#portfolio-pg {
+	background-image: url(../../doves.gif);
+    background-size: cover;
+	background-position: center;
+}
+
 #resume-link {
 	color: black;
 	text-decoration: underline;
 }
 
 .linksContainer {
+	z-index: 99999;
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 25px;
-	/* background-color: white; */
-	/* background-color: #f1dfd1; 
-	background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%); */
 }
 
 .linked-pages-text {
@@ -31,7 +35,7 @@
 	bottom: 0;
 	right: 0;
 	left: 0;
-	font-size: 30px;
+	font-size: 32px;
 	opacity: 0;
 	font-family: apercu-bold;
 	background-color: rgba(255, 255, 255, 0.678);
@@ -84,3 +88,9 @@
 		opacity: 1;
 	}
 }
+
+.app-links, .app-links > a {
+	color: black;
+	font-size: 32px;
+}
+
