@@ -41,5 +41,9 @@
         background-position: center;
     }
 
+    #greeting-display{
+        font-size: 32px;
+    }
+
 }
 
