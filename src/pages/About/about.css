@@ -46,7 +46,7 @@ button {
 	#about > p {
 		font-size: 32px;
 		background-image: url(../../comp.png);
-		background-blend-mode: soft-liht;
+		background-blend-mode: soft-light;
 		background-size: contain;
 		background-size: 130px;
 		background-position: left;
