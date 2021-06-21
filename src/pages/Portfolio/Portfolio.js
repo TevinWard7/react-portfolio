@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import "./portfolio.css";
-import burgerImg from "./img/burger.png";
+// import burgerImg from "./img/burger.png";
 import recipeImg from "./img/recipebook.png";
 import wwcImg from "./img/wwc.png";
 import trackerImg from "./img/tracker.gif";
