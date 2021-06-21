@@ -15,6 +15,7 @@
 .nav-links a:hover {
 	color: black;
 	text-shadow: currentColor 20px;
+	text-decoration: underline;
 }
 
 header {
