@@ -10,7 +10,7 @@ const About = () => {
     return(
         <>
             <div class="myContainer" id="about">
-                
+                <div></div>
                 <p>
 
                     {/* <h2>Hello</h2> */}

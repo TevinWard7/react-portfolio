@@ -59,6 +59,7 @@ button {
 		background-image: url(../../binary.png);
 		background-repeat: no-repeat;
 		background-size: 330px;
-		background-position: left;
+		background-position: top;
+
 	}
 }
