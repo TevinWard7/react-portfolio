@@ -46,12 +46,19 @@ button {
 	#about > p {
 		font-size: 32px;
 		background-image: url(../../comp.png);
-		background-blend-mode: soft-light;
+		background-blend-mode: soft-liht;
 		background-size: contain;
-		background-size: 230px;
-		background-position: center;
+		background-size: 130px;
+		background-position: left;
 		background-repeat: no-repeat;
 		margin-top: 3rem;
 		margin-bottom: 3rem;
+	}
+
+	#about {
+		background-image: url(../../binary.png);
+		background-repeat: no-repeat;
+		background-size: 330px;
+		background-position: left;
 	}
 }
