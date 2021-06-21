@@ -5,18 +5,14 @@
 
 button {
 	border: none;
-	/* border-width: thin;
-	border-style: solid; */
 	text-align: center;
 	padding: 10px;
 	font-size: medium;
-	/* box-shadow: 10px 10px black; */
 	background-color: inherit;
 }	
 
 #about > p {
 	font-size: 65px;
-	/* color: black; */
 	color: #f8d1e5;
 	text-shadow:#E4DCE0 1px 0 50p;
 	max-width: 1200px;
@@ -44,4 +40,18 @@ button {
 	background-size: 530px;
 	background-position: left;
 	/* background-color: #fcf3df; */
+}
+
+@media only screen and (max-width: 600px) {
+	#about > p {
+		font-size: 32px;
+		background-image: url(../../comp.png);
+		background-blend-mode: soft-light;
+		background-size: contain;
+		background-size: 230px;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
 }
