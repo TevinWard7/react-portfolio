@@ -43,6 +43,7 @@ const Home = () => {
             // Gainsboro
             // "#E4DCE0",
             "#E4DCE0",
+            "#E4DCE0",
             // Rosy brown
             // "#C8B0A6",
             "white",
