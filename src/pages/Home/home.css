@@ -35,6 +35,7 @@
     .home-page {
         /* height: 100vh; */
         background-image: url('../../vcat2.gif');
+        min-height:100%;
         /* background-size: 550px; */
         background-size: contain;
         /* background-attachment: fixed; */
