@@ -34,14 +34,11 @@
 
     .home-page {
         /* height: 100vh; */
-        background-image: url('../../vcat2.gif');
-        min-height:100%;
-        /* background-size: 550px; */
-        background-size: contain;
-        /* background-attachment: fixed; */
-        background-repeat: no-repeat;
-        background-position: center;
-        /* background-attachment: fixed; */
+        background-image: url('../../vcat2.gif')no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     #greeting-display{
