@@ -33,7 +33,7 @@ const Home = () => {
     const displayNewHello = () => {
 
         // Array containing hello
-        const helloArray = ["こんにちは", "হ্যালো", "Привет", "ਸਤ ਸ੍ਰੀ ਅਕਾਲ", "Hello"];
+        const helloArray = ["こんにちは", "Привет", "ਸਤ ਸ੍ਰੀ ਅਕਾਲ", "Hello"];
 
         // Array containing colors 
         const colors = [
