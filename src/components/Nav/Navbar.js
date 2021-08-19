@@ -1,24 +1,24 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./nav.css";
-import logo from "../../components/Nav/img/tevinlogo.png";
+import logo from "../../images/tevinlogo.png";
 // import anime from 'animejs/lib/anime.es.js';
 
 const Navbar = () => {
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    // anime({
-    //   targets: '.logo',
-    //   rotate: 360, 
-    //   loop: true,
-    //   easing: 'linear',
-    //   duration: 3000
-    // });
+  //   anime({
+  //     targets: '.logo',
+  //     rotate: 360, 
+  //     loop: true,
+  //     easing: 'linear',
+  //     duration: 10000
+  //   });
 
-  },[])
+  // },[])
 
 return(
-    <header>
+    <header className="container"> 
 
       <a href="/">
         <img className="logo" src={logo} alt="logo" width="75" height="75" style={{zIndex: 10000}}/>
@@ -27,9 +27,9 @@ return(
       <nav className="nav-links" style={{zIndex: 0}}>
         
         <ul>
-            <li><a href="/about">About</a></li>
+            {/* <li><a href="/about">About</a></li>
             <li><a href="/portfolio">Selected Works</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/contact">Contact</a></li> */}
         </ul>
             
       </nav>

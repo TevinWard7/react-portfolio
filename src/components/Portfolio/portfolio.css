@@ -1,0 +1,32 @@
+.linksContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.app {
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    border: 4rem;
+    border-width: medium;
+    border-color: white;
+    /* background-color: rgba(255, 255, 255, 0.692); */
+    border-style: groove;
+    border-width: thin;
+    border-color: white;
+    background-color: white;
+}
+
+.linkwords {
+    padding: 2rem;
+    width: 100%;
+}
+
+a, span {
+    color: black;
+}

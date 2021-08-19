@@ -1,5 +1,5 @@
 .nav-links ul {
-	font-family: raisonne;
+	/* font-family: raisonne; */
 	display: flex;
 	margin: 0;
 	padding: 0;
@@ -35,10 +35,6 @@ header {
 	color: inherit;
 }
 
-/* nav {
-	background-color: #C8B0A6;
-} */
-
 .logo {
     /* display: inline-block; */
     animation: rotate 1s linear infinite;
@@ -61,6 +57,5 @@ header {
 @media only screen and (max-width: 600px) {
 	header {
 	  justify-content: center;
-	  background-color: white;
 	}
 }

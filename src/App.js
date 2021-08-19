@@ -1,61 +1,40 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import "./App.css";
 import Navbar from "./components/Nav/Navbar";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Portfolio from "./pages/Portfolio/Portfolio";
-import About from "./pages/About/About";
-import Contact from "./pages/Contact/Contact";
-import AOS from 'aos';
+// import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Portfolio from "./components/Portfolio/Portfolio";
+import About from "./components/About";
+// import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Form from "./components/Book/form";
 
 function App() {
 
-  useEffect(() => {
-    AOS.init({duration: 1000})
-  }, [])
-
   return (
-    <Router>
-        <Navbar />
 
-        <Route exact path="/">
+    <div className="containz">
 
+          <Navbar />
+
+          <section className="home">
             <Home />
-          
-          <div data-aos="fade-right">
-              <About/>
-          </div>
-
-          <div>
-            <Portfolio />       
-          </div>
-          
-          <div data-aos="fade-up">
-              <Contact />
-          </div>
-
-        </Route>
-
-        <div data-aos="fade-right">
-          <Route exact path="/about">
+          </section>
+            
+          <section className="about">
             <About/>
-          </Route>
-        </div>
-        
-        <div>
-          <Route exact path="/portfolio">
-            <Portfolio />
-          </Route>
-        </div>
+          </section>
 
-        <div data-aos="fade-up">
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-        </div>
-        
-    </Router>
+          <section className="projects">
+            <Portfolio />       
+          </section>
+
+          <section className="contact">
+            <Form />
+          </section>
+          
+    </div>
+
   );
 }
 
