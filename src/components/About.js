@@ -44,6 +44,7 @@ const About = () => {
     return(
         <>
             <h2>About</h2>
+            <br/>
 
             {/* <div className="greetings">
                 <h1 style={myStyle} id="greeting-display" >{hello || "Hello"}</h1>
