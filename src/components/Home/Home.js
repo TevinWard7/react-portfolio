@@ -45,7 +45,7 @@ const Home = () => {
           }, 120)
         }
 
-        consoleText(['Software Engineer', 'Software Developer', 'Solution maker', 'Super guy'], 'text',['white']);
+        consoleText(['Software Engineer', 'Software Developer', 'Super guy'], 'text',['white']);
 
     },[])
     
