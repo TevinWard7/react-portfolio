@@ -3,10 +3,6 @@ import React, {  useEffect } from "react";
 
 const Home = () => {
 
-    // window.addEventListener('scroll', () => {
-    //     document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-    // }, false);
-
     useEffect(() => {
 
         const consoleText = (words, id, colors) => {
@@ -49,7 +45,7 @@ const Home = () => {
           }, 120)
         }
 
-        consoleText(['Software Engineer'], 'text',['white']);
+        consoleText(['Software Engineer', 'Software Developer', 'Solution maker', 'Super guy'], 'text',['white']);
 
     },[])
     
