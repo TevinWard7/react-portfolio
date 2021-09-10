@@ -44,29 +44,27 @@ const About = () => {
     return(
         <>
             <h2>About</h2>
-            <br/>
+            <div className="writting">
+                <p>
+                    Full-stack dev based out of Raliegh, North Carolina passionate about effeciency, DRY semantic code, user freindly applications, and learning new tech!
+                    <br/>
+                    <br/>
+                    Main tech stack:
+                    <br/>
+                    MERN MongoDB, Express, React, Node.js.
+                    JavaScript (ES6),  HTML & CSS
+                    <br/>
+                </p>
+            </div>
 
-            {/* <div className="greetings">
-                <h1 style={myStyle} id="greeting-display" >{hello || "Hello"}</h1>
-            </div> */}
-            <p>
-                Full-stack dev based out of Raliegh, North Carolina passionate about effeciency, DRY semantic code, user freindly applications, and learning new tech!
-                <br/>
-                <br/>
-                Main tech stack:
-                <br/>
-                MERN MongoDB, Express, React, Node.js.
-                JavaScript (ES6),  HTML & CSS
-            </p>
-
-            <br/>
-
-            <br/>
 
             <div>
             <a href="https://github.com/TevinWard7">  <img src={gitImg} alt="github-link" height="30" width="30" />  </a>|
             <a href="https://www.linkedin.com/in/tevin-ward-bb1494150/" >  <img src={linkdIMg} alt="github-link" height="30" width="30" />  </a>
             </div>
+
+            <br/>
+            <br/>
                 
         </>
     )

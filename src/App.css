@@ -97,6 +97,12 @@ section {
 	height: 100%;
 }
 
+.about > .writting {
+	/* background-color: rgba(255, 255, 255, 0.548); */
+	margin: 2rem;
+	padding: 4rem;
+}
+
 .projects, .projects > a{
 	margin-top: 8rem;
 	padding-top: 16rem;
@@ -107,6 +113,7 @@ section {
 	border-width: thick; */
 	/* background-color: rgba(255, 255, 255, 0.5); */
 	overflow-x: scroll;
+	overflow-y: scroll;
 }
 
 a:hover {
